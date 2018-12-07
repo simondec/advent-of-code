@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45333D1F21B8460A00FAD2E2 /* 2018-05.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45333D1E21B8460A00FAD2E2 /* 2018-05.swift */; };
+		45333D2121B9953100FAD2E2 /* 2018-06.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45333D2021B9953100FAD2E2 /* 2018-06.swift */; };
 		456D372B21B59DA7008FD01C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456D372A21B59DA7008FD01C /* main.swift */; };
 		456D373521B59EA5008FD01C /* 2018-01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456D373421B59EA5008FD01C /* 2018-01.swift */; };
 		456D373C21B5ABFF008FD01C /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456D373B21B5ABFF008FD01C /* Day.swift */; };
@@ -14,6 +16,7 @@
 		45E621F721B5B6890097D6F8 /* Year2018.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E621F621B5B6890097D6F8 /* Year2018.swift */; };
 		45E621FB21B5E30B0097D6F8 /* 2018-02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E621FA21B5E30B0097D6F8 /* 2018-02.swift */; };
 		45E621FE21B6F0F90097D6F8 /* 2018-03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E621FD21B6F0F90097D6F8 /* 2018-03.swift */; };
+		45E6220121B706810097D6F8 /* 2018-04.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E6220021B706810097D6F8 /* 2018-04.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +32,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		45333D1D21B845FC00FAD2E2 /* 2018-05.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "2018-05.txt"; sourceTree = "<group>"; };
+		45333D1E21B8460A00FAD2E2 /* 2018-05.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2018-05.swift"; sourceTree = "<group>"; };
+		45333D2021B9953100FAD2E2 /* 2018-06.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2018-06.swift"; sourceTree = "<group>"; };
+		45333D2221B9954600FAD2E2 /* 2018-06.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "2018-06.txt"; sourceTree = "<group>"; };
 		456D372721B59DA7008FD01C /* advent-of-code */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "advent-of-code"; sourceTree = BUILT_PRODUCTS_DIR; };
 		456D372A21B59DA7008FD01C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		456D373421B59EA5008FD01C /* 2018-01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2018-01.swift"; sourceTree = "<group>"; };
@@ -40,6 +47,8 @@
 		45E621FA21B5E30B0097D6F8 /* 2018-02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2018-02.swift"; sourceTree = "<group>"; };
 		45E621FC21B6F0D60097D6F8 /* 2018-03.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "2018-03.txt"; sourceTree = "<group>"; };
 		45E621FD21B6F0F90097D6F8 /* 2018-03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2018-03.swift"; sourceTree = "<group>"; };
+		45E621FF21B706660097D6F8 /* 2018-04.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "2018-04.txt"; sourceTree = "<group>"; };
+		45E6220021B706810097D6F8 /* 2018-04.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2018-04.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +96,9 @@
 				456D373421B59EA5008FD01C /* 2018-01.swift */,
 				45E621FA21B5E30B0097D6F8 /* 2018-02.swift */,
 				45E621FD21B6F0F90097D6F8 /* 2018-03.swift */,
+				45E6220021B706810097D6F8 /* 2018-04.swift */,
+				45333D1E21B8460A00FAD2E2 /* 2018-05.swift */,
+				45333D2021B9953100FAD2E2 /* 2018-06.swift */,
 			);
 			path = 2018;
 			sourceTree = "<group>";
@@ -97,6 +109,9 @@
 				45E621F821B5BF4A0097D6F8 /* 2018-01.txt */,
 				45E621F921B5E2E80097D6F8 /* 2018-02.txt */,
 				45E621FC21B6F0D60097D6F8 /* 2018-03.txt */,
+				45E621FF21B706660097D6F8 /* 2018-04.txt */,
+				45333D1D21B845FC00FAD2E2 /* 2018-05.txt */,
+				45333D2221B9954600FAD2E2 /* 2018-06.txt */,
 			);
 			path = input;
 			sourceTree = "<group>";
@@ -169,9 +184,12 @@
 			files = (
 				45E621FB21B5E30B0097D6F8 /* 2018-02.swift in Sources */,
 				456D372B21B59DA7008FD01C /* main.swift in Sources */,
+				45333D2121B9953100FAD2E2 /* 2018-06.swift in Sources */,
 				456D373521B59EA5008FD01C /* 2018-01.swift in Sources */,
 				456D373E21B5ACBA008FD01C /* Input.swift in Sources */,
+				45E6220121B706810097D6F8 /* 2018-04.swift in Sources */,
 				45E621F721B5B6890097D6F8 /* Year2018.swift in Sources */,
+				45333D1F21B8460A00FAD2E2 /* 2018-05.swift in Sources */,
 				456D373C21B5ABFF008FD01C /* Day.swift in Sources */,
 				45E621FE21B6F0F90097D6F8 /* 2018-03.swift in Sources */,
 			);

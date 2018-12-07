@@ -8,8 +8,8 @@
 
 import Foundation
 
-print("Hello, World!")
-let (p1, p2) = Year2018.Day3().run()
+print("Enjoy Advent of Code 2018!")
+let (p1, p2) = Year2018.Day6().run()
 
 print("part 1: \(p1)")
 print("part 2: \(p2)")
